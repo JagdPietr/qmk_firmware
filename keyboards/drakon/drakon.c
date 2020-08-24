@@ -28,6 +28,7 @@ void encoder_update_user(uint8_t index, bool clockwise) {
 
 #ifdef OLED_DRIVER_ENABLE
 
+__attribute__ ((weak))
 enum Layer_names {
 _Base,
 _FN,
